@@ -610,3 +610,21 @@
 // return 0;
 // }
 
+
+
+
+#include<iostream>
+using namespace std;
+int main (){
+    int N;
+    int Sum =0 ;
+    cout<<" enter NO : ";
+    cin>>N;
+    for (int i =0; i<= N; i++)     
+    {
+        Sum+= i;
+
+    }
+      cout<<" Additon is "<< Sum << endl;
+    return 0;
+}
