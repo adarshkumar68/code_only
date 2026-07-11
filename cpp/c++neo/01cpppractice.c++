@@ -613,18 +613,119 @@
 
 
 
-#include<iostream>
-using namespace std;
-int main (){
-    int N;
-    int Sum =0 ;
-    cout<<" enter NO : ";
-    cin>>N;
-    for (int i =0; i<= N; i++)     
-    {
-        Sum+= i;
+// #include<iostream>
+// using namespace std;
+// int main (){
+//     int N;
+//     int Sum =0 ;
+//     cout<<" enter NO : ";
+//     cin>>N;
+//     for (int i =0; i<= N; i++)     
+//     {
+//         Sum+= i;
 
+//     }
+//       cout<<" Additon is "<< Sum << endl;
+//     return 0;
+// }
+
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int N;
+// cout<<"Enter NO for Table :";
+// cin>>N;
+//     for(int i=1; i <= 10; i++)
+//     {
+//        cout<<N*i<<endl;
+//     }
+//     return 0;
+    
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main (){
+//     int N;
+//     int reversed = 0;
+//     cout<<"Enter No to reverce :";
+//     cin>>N;
+
+//     while (N != 0)
+//     {
+// int digit = N % 10;
+//    reversed = reversed * 10 +digit;
+//    N = N / 10; 
+//     }
+// cout<<"Reversed No :"<< reversed<< endl;
+// return 0;
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int sum(int a, int b){
+//   int totalsum = a + b;
+//   return totalsum;
+// }
+// int main()
+// {
+// int ans = sum(7,9);
+// cout<< ans<< endl ;
+
+// int ans1 = sum (9,6);
+// cout<< ans1 << endl;
+
+// return 0;
+//}
+
+
+// #include <iostream>
+// using namespace std;
+
+// void printmyname10times()
+// { 
+//     for(int i = 1; i<=10; i++)
+//     cout<<"Adarsh"<<endl;
+// }
+// int main ()
+//     {
+//   printmyname10times();
+
+//   return 0;
+//     }
+
+
+    // #include <iostream>
+    // using namespace std;
+    
+    // int getmultiplication (int x, int y , int z)
+    // {
+    //     int result = x*y*z;
+    //     return result;
+    // }
+    // int main ()
+    // {
+    //     int ans = getmultiplication(5,6,9);
+    //     cout<< ans<<endl;
+
+    //   return 0;
+    // }
+
+
+    #include<iostream>
+    using namespace std;
+
+    int convertintocelcius (int far)
+    {
+         int celcius = (far-32)*5/9;
+        return celcius ;
     }
-      cout<<" Additon is "<< Sum << endl;
-    return 0;
-}
+    int main()
+    {
+        int ans = convertintocelcius(76);
+          cout<< ans<< endl;
+    }
